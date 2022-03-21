@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * main funcrion entry
- * printing text to the screen using printf function not puts
- * returns 0
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
