@@ -10,15 +10,11 @@ int main(void)
 
 	for (comb = 48; comb <= 57; comb++)
 	{
+		putchar(comb);
 		if (comb != 57)
 		{
-			putchar(comb);
 			putchar(',');
 			putchar(' ');
-		}
-		else if (comb == 57)
-		{
-			putchar(comb);
 		}
 	}
 	putchar('\n');
